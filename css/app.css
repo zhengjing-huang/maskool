@@ -1,6 +1,6 @@
 nav ul{
     list-style: none;
-    justify-content: space-between;
+    
    
    
   
@@ -20,11 +20,14 @@ nav{
 
 nav ul li{
     display: inline-block;
+    margin: 0 15px;
+    font-size: 25px;
+    
 }
 
 
 nav a:hover { 
-	color:#4267B2;
-	text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
 
 }
