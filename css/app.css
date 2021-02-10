@@ -64,10 +64,7 @@ footer p, h1{
 }
 
 #nav ul{
-    list-style: none;
-    
-   
-   
+    list-style: none; 
   
 }
 
@@ -75,11 +72,17 @@ a{
     text-decoration: none;
     color:black;
 }
+a:target { 
+    font-style: italic;
+    font-weight: bold;
+}
 
 nav{
     display:flex;
     justify-content: flex-end;
-
+    position: fixed;
+    top:0px;
+    right:0px;
   
 }
 
@@ -94,8 +97,10 @@ nav ul li{
 nav a:hover { 
     font-style: italic;
     font-weight: bold;
+    
 
 }
+
 
 #Produit{
 margin: 170px auto;
@@ -125,4 +130,7 @@ width:50%;
 }
 #Accueil{
 text-align: center;
+}
+#Accueil p{
+    font-size:20px ;
 }
