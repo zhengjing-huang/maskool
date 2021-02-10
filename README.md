@@ -22,7 +22,7 @@ https://github.com/zhengjing-huang/maskool.git
 Chacun fait une catégorie différente par exemple menu, footer, contenu.
 
 
-## Fabriqué avec
+## Les techniques choisies 
 * [Visual Studio Code](https://code.visualstudio.com/download) - Editeur de textes
 * HTML
 * CSS
