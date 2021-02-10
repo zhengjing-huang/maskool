@@ -30,7 +30,7 @@ Chacun fait une catégorie différente par exemple menu, footer, contenu.
 ## Versions
 
 **Première version stable :** 1.0
- [Cliquer pour afficher](https://github.com/zhengjing-huang/maskool.git/tags)
+ [Cliquer pour afficher]
 
 
 ## Auteurs
