@@ -7,14 +7,14 @@ Slogan: _Ce n'est pas un masque_
 Nous avons décidé de faire un site web sur le projet qu’on a fait en EMN. C’est un site pour expliquer les fonctionnalités du masque connecté et pour le vendre.
 
 
-### La composition du groupe 
+## La composition du groupe 
 
 
 - Noms: Zhengjing Huang / Maman Soda Diagne
 - Pseudos: zhengjing-huang / SodaDiagne
 
 
-### L'URL de notre projet 
+## L'URL de notre projet 
 
 https://github.com/zhengjing-huang/maskool.git
 
