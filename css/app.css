@@ -33,16 +33,13 @@ body{
     display: inline-block;
     margin:0 20px;
 }
-#bouton{
+.bouton{
     color:white;
     background-color: black;
-    padding:5px 35px;
+    padding:5px 5px;
     border-radius: 10px;
+
 }
-
-
-
-
 .smartphone{
     position: absolute;
     left:25%;
@@ -123,7 +120,7 @@ width:50%;
 .fleche{
     margin-bottom:12%;
 }
-#bouton{margin:20px;}
+
 .mask{
     position: relative;
     right:0px;
@@ -133,21 +130,28 @@ text-align: center;
 }
 #Accueil p{
     font-size:20px ;
-
+}
 
 /* page contact*/
-form {
-  margin-left:60%;
-  width: 400px;
-  
+
+
+#contact, form {
+  width: 100%;
+  margin: 30px auto;
+  display: inline-block;
+  text-align: center;
+
 }
 
-#contact {
-  margin-left:20%;
-
+form div{
+    margin: 65px;
+}
+input, textarea{
+    border:none;
+    border-bottom:solid black 1px;
+}
+textarea{
+    width:30%;
+    height: 150px;
 }
 
-.button { 
-  margin-left:30%;
-  margin-top: 30px;
-}

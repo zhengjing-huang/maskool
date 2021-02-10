@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="css/app.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<script src="js/app.js"></script>
 </head>
 <header>
 
@@ -60,20 +61,8 @@
 		<div id="bleu"></div>
 		<div id="blanc"></div>
 		<p>99 euros</p>
-		<div id="bouton"><p>Acheter</p></div>
+		<div class="bouton"><p>Acheter</p></div>
 	</div>
-
-<script src="js/app.js"></script>
-</body>
-<footer>
-	<img class="smartphone" src="images/Capture.PNG" alt="smartphone">
-	<p>Télécharger l'appli</p>
-	<br/>
-	<img class="image" src="images/app-store-google-play-logo.png" alt="appstore">
-
-
-
-
 	<div id="contact">
     
      
@@ -84,21 +73,28 @@
     <form action="/ma-page-de-traitement" method="post">
     	<h3>Avez vous des questions sur nos produits?</h3>
         <div>
-            <label for="name">Nom :</label>
+			<label for="name">Nom :</label>
+			<br/>
             <input type="text" id="name" name="user_name"  value="">
         </div>
         <div>
-            <label for="mail">E-mail :</label>
+			<label for="mail">E-mail :</label>
+			<br/>
             <input type="email" id="mail" name="user_mail">
         </div>
         <div>
-            <label for="msg">Message:</label>
+			<label for="msg">Message:</label>
+			<br/>
             <textarea id="msg" name="user_message"></textarea>
         </div>
-        <div class="button">
-            <button type="submit" class="btn">Envoyer</button>
+        <div class="bouton"><p>Envoyer</p></div>
         
     </form>
-
+	<footer>
+		<img class="smartphone" src="images/Capture.PNG" alt="smartphone">
+		<p>Télécharger l'appli</p>
+		<br/>
+		<img class="image" src="images/app-store-google-play-logo.png" alt="appstore">
 </footer>
+</body>
 </html>
